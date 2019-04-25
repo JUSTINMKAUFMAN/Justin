@@ -16,7 +16,7 @@ class JustinViewController: UIViewController {
     var firstLabel = UILabel()
     var secondLabel = UILabel()
     var thirdLabel = UILabel()
-    var submitButton = UIButton()
+    var submitButton = UIButton(buttonWithType: 0)
 
     override fun viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +34,8 @@ class JustinViewController: UIViewController {
         thirdLabel.numberOfLines = 0
 
         submitButton.titleLabel!!.text = "SUBMIT"
-        submitButton.backgroundColor = UIColor.orangeColor
+        submitButton.titleLabel!!.textColor = UIColor.redColor
+        submitButton.backgroundColor = UIColor.greenColor
 
         stackView.addArrangedSubview(firstLabel)
         stackView.addArrangedSubview(secondLabel)
