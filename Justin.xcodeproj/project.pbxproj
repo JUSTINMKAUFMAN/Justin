@@ -265,9 +265,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/98point6",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/98point6/VisualKit.framework/Frameworks",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Justin/Info.plist";
 				KONAN_ENABLE_OPTIMIZATIONS = YES;
@@ -347,9 +344,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/98point6",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/98point6/VisualKit.framework/Frameworks",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Justin/Info.plist";
 				KONAN_ENABLE_OPTIMIZATIONS = NO;
