@@ -33,7 +33,7 @@ class JustinViewController: UIViewController {
         thirdLabel.textAlignment = 1
         thirdLabel.numberOfLines = 0
 
-        submitButton.titleLabel!.text = "SUBMIT"
+        submitButton.titleLabel!!.text = "SUBMIT"
         submitButton.backgroundColor = UIColor.orangeColor
 
         stackView.addArrangedSubview(firstLabel)
@@ -42,9 +42,5 @@ class JustinViewController: UIViewController {
         stackView.addArrangedSubview(submitButton)
     }
 
-    private fun setupLayout() {
-        var labelFrame = firstLabel.frame;
-        labelFrame.size.height = 21.0;
-        firstLabel.frame = labelFrame;
-    }
+    private fun setupLayout() {}
 }
